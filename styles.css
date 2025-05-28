@@ -9,7 +9,7 @@ body, html {
 
 body {
 
-    background-image: url("/Entregable_S2/fondo2.jpeg");
+    background-image: url("fondo2.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
