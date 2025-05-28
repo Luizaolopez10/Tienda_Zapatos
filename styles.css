@@ -1,0 +1,169 @@
+body, html {
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+body {
+
+    background-image: url("/Entregable_S2/fondo2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    width: 1910px;
+
+}
+
+.header{
+
+    display: flex;
+    height: 250px;
+    gap: 40px;
+    margin-top: 50px;
+    
+}
+
+.header h1{
+
+    text-decoration: line-through;
+    font-size: 140px;
+    color: rgb(255, 255, 255);
+    
+}
+
+h1{
+
+    text-shadow: 8px 7px 10px rgb(7, 227, 243);
+
+}
+
+h2{
+
+    text-shadow: 9px 9px 10px rgba(18, 212, 219, 0.7);
+
+}
+
+p{
+
+    text-shadow: 5px 5px 10px rgba(18, 212, 219, 0.7);
+
+}
+
+header p{
+
+    text-decoration: line-through;
+    font-size: 50px;
+    font-family: cursive;
+    color: white;
+    border-color: aqua;
+}
+
+.menu{
+
+    width: 1910px;
+    height: 100px;
+    margin-top: 50px;
+
+}
+
+.sub-menu {
+
+    list-style: none;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    gap: 60px;
+    width: 1910px;
+}
+
+.sub-menu li {
+
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    gap: 10px;
+    width: 1110px;
+    color: rgb(2, 247, 255);
+    background-color: rgb(56, 59, 58);
+    box-shadow: 0 6px 12px rgb(5, 216, 198)
+}
+
+.main {
+
+    width: 1910px;
+    height: 600px;
+    margin-top: 10px;
+
+}
+
+.main h1{
+
+    color: white;
+    text-decoration: line-through;
+    font-size: 400px;
+    height: 200px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.main h2{
+
+    color: white;
+    text-decoration: line-through;
+    font-size: 110px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgb(0, 222, 238)
+    
+}
+
+.boton-compra {
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100px;
+    margin-top: 50px;  
+}
+
+button {
+
+    height: 50px;
+    width: 190px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(56, 56, 56);
+    box-shadow: 0 6px 12px rgb(0, 222, 238)
+    
+    
+}
+
+button a{
+    text-decoration: none;
+    color: rgb(15, 209, 183);
+}
+
+
+
+
+
+.footer {
+
+    text-align: center;
+    list-style: none;
+    padding: 2%;
+    font-size: 20px;
+    margin-top: 50px;
+    width: 1910px;
+    text-shadow: 8px 7px 10px rgb(7, 227, 243);
+    color: rgb(254, 253, 255);
+    box-shadow: 0 6px 12px rgb(0, 222, 238)
+    
+    
+}
+
+
